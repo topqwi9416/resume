@@ -1,0 +1,36 @@
+@media (max-width: 900px){
+  .showcase{
+    grid-template-columns:1fr;
+  }
+  .detail-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:700px){
+  .nav-links{
+    display:none;
+    position:absolute;
+    top:70px;
+    right:20px;
+    background:#020617;
+    padding:1rem;
+    border-radius:12px;
+    flex-direction:column;
+    gap:1rem;
+  }
+  .nav-links.active{
+    display:flex;
+  }
+  .burger{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    cursor:pointer;
+  }
+  .burger span{
+    width:25px;
+    height:3px;
+    background:#38bdf8;
+  }
+}
