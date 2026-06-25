@@ -75,12 +75,12 @@ import { AosDirective } from '../../directives/aos.directive';
                 Проекты с диаграммами проектирования и базами данных.
               </p>
               <div class="space-y-2">
-                <a [href]="'https://github.com/topqwi9416/redesign/' + data.githubUser + '/' + data.monoRepo + '/tree/main/Цифровые_решения/Редизайн'" target="_blank"
+                <a href="https://github.com/topqwi9416/redesign" target="_blank"
                    class="flex items-center justify-between px-4 py-2 border border-line rounded-lg text-sm hover:border-accent/50 hover:bg-accent/5 transition">
                   <span>Редизайн</span>
                   <i class="fas fa-arrow-right text-xs text-dim"></i>
                 </a>
-                <a [href]="'https://github.com/' + data.githubUser + '/' + data.monoRepo + '/tree/main/Цифровые_решения/СКУД'" target="_blank"
+                <a href="https://drive.google.com/drive/u/0/folders/1XE32AirJALpCtSPbduuDOLRwio6ckHj1" target="_blank"
                    class="flex items-center justify-between px-4 py-2 border border-line rounded-lg text-sm hover:border-accent/50 hover:bg-accent/5 transition">
                   <span>СКУД</span>
                   <i class="fas fa-arrow-right text-xs text-dim"></i>
