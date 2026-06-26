@@ -100,7 +100,7 @@ import { AosDirective } from '../../directives/aos.directive';
                 Сайт организации по практике.
               </p>
               <div class="space-y-2">
-                <a [href]="'https://github.com/' + data.githubUser + '/' + data.monoRepo + '/tree/main/Практика/Сайт_организации'" target="_blank"
+                <a href="https://github.com/topqwi9416/mvd" target="_blank"
                    class="flex items-center justify-between px-4 py-2 border border-line rounded-lg text-sm hover:border-accent/50 hover:bg-accent/5 transition">
                   <span>Сайт организации</span>
                   <i class="fas fa-arrow-right text-xs text-dim"></i>
